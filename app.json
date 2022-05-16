@@ -1,0 +1,27 @@
+   "name": "Layla Robot",
+      "description": "Telegram group management bot.",
+      "logo": "https://telegra.ph/file/8f6b24120aab8490dca45.jpg",
+      "keywords": [
+         "telegram",
+         "anime",
+         "group",
+         "manager",
+         "Layla"
+      ],   
+   "repository": "https://github.com/QueenArzoo/LaylaRobot.git",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],  
